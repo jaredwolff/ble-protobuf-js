@@ -1,6 +1,6 @@
 # ble-protobuf-js
 
-Example code for connecting to a `ble_protobuf` enabled Nordic Device.
+Example code for connecting to a `ble_protobuf` enabled Nordic Device. This app is currently set to use OSX only. See (untested) instructions below for other platforms.
 
 ## Setup
 
@@ -12,3 +12,9 @@ Example code for connecting to a `ble_protobuf` enabled Nordic Device.
 6. Run `yarn` (if you don't have yarn `npm install yarn -g`)
 7. Once installed, run `nvm use v10.15.3`
 8. Then run `node index.js` to start the example
+
+## Other platforms
+
+1. `yarn install noble`
+2. Replace `require('noble-mac');` in `index.js` with `require('noble');`
+3. Then run `node index.js` to start the example
