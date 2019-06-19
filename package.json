@@ -1,0 +1,12 @@
+{
+  "name": "ble-protobuf-js",
+  "version": "1.0.0",
+  "description": "Companion javascript app for OSX.",
+  "main": "index.js",
+  "author": "Jared Wolff <hello@jaredwolff.com>",
+  "license": "MIT",
+  "dependencies": {
+    "noble-mac": "https://github.com/Timeular/noble-mac.git",
+    "protobufjs": "^6.8.8"
+  }
+}

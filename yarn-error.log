@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/jaredwolff/.nvm/versions/node/v10.15.3/bin/node /Users/jaredwolff/.nvm/versions/node/v10.15.3/bin/yarn add noble-mac
+
+PATH: 
+  /usr/local/opt/libressl/bin:/usr/local/opt/qt/bin:/Users/jaredwolff/.nvm/versions/node/v10.15.3/bin:/Users/jaredwolff/bin:/users/jaredwolff/bin/:/Users/jaredwolff/protoc-3.5.1-osx-x86_64/bin:/Users/jaredwolff/go/bin:/Users/jaredwolff/Library/Python/2.7/bin:/users/jaredwolff/mergehex/:/users/jaredwolff/nrfjprog/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Users/jaredwolff/gcc-arm-none-eabi-6-2017-q2-update/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/noble-mac: Not found
+      at Request.params.callback [as _callback] (/Users/jaredwolff/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:66058:18)
+      at Request.self.callback (/Users/jaredwolff/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:129541:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/Users/jaredwolff/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:130513:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/Users/jaredwolff/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "ble-protobuf-js",
+    "version": "1.0.0",
+    "description": "Companion javascript app for OSX.",
+    "main": "index.js",
+    "author": "Jared Wolff <hello@jaredwolff.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
