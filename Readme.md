@@ -2,7 +2,7 @@
 
 Example code for connecting to a `ble_protobuf` enabled Nordic Device. This app is currently set to use OSX only. See (untested) instructions below for other platforms.
 
-This repository was created in conjunction with [Part 1](https://www.jaredwolff.com/how-to-define-your-own-bluetooth-low-energy-configuration-service-using-protobuf/) and Part 2 of *Define Your Own Bluetooth Low Energy Service using Protocol Buffers.*
+This repository was created in conjunction with [Part 1][part1] and [Part 2][part2] of *Define Your Own Bluetooth Low Energy Service using Protocol Buffers.*
 
 Note: use this repository in conjunction with the [Nordic Firmware example.](https://bitbucket.org/jaredwolff/ble-protobuf-example/)
 
@@ -22,3 +22,6 @@ Note: use this repository in conjunction with the [Nordic Firmware example.](htt
 1. `yarn install noble`
 2. Replace `require('noble-mac');` in `index.js` with `require('noble');`
 3. Then run `node index.js` to start the example
+
+[part1]: https://www.jaredwolff.com/how-to-define-your-own-bluetooth-low-energy-configuration-service-using-protobuf/
+[part2]: https://www.jaredwolff.com/how-to-protocol-buffer-bluetooth-low-energy-service-part-2/
