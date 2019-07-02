@@ -62,7 +62,7 @@ noble.on('discover', function(peripheral) {
                     return;
                   }
 
-                  console.log("Recieved: " + response.message);
+                  console.log("Received: " + response.message);
 
                 });
 
