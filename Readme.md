@@ -4,7 +4,7 @@ Example code for connecting to a `ble_protobuf` enabled Nordic Device. This app 
 
 This repository was created in conjunction with [Part 1][part1] and [Part 2][part2] of *Define Your Own Bluetooth Low Energy Service using Protocol Buffers.*
 
-Note: use this repository in conjunction with the [Nordic Firmware example.](https://bitbucket.org/jaredwolff/ble-protobuf-example/)
+Note: use this repository in conjunction with the [Nordic Firmware example.](https://github.com/jaredwolff/ble-protobuf-example)
 
 ## Setup
 
