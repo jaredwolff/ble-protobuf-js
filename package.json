@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "noble-mac": "https://github.com/Timeular/noble-mac.git",
-    "protobufjs": "^6.8.8"
+    "protobufjs": "^6.11.3"
   }
 }
